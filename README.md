@@ -12,7 +12,7 @@ Access to a GCP project with the necessary permissions to create and manage reso
 <pre><code class="copy-button">
  git clone[ https://github.com/Merit516/Final-ITI-CI-CD-Project/
 </code></pre>
-2-
+2-Change Directory To : terraform
 <pre><code class="copy-button">
 cd terraform
 </code></pre>
