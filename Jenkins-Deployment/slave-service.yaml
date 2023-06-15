@@ -1,0 +1,12 @@
+kind: Service
+apiVersion: v1
+metadata:
+   name: jenkins-slave-service
+   namespace: jenkins-ns  
+spec:
+  selector:
+    app: jenkins-agent
+  ports:
+   - protocol: TCP
+     port: 22
+     targetPort: 22   
